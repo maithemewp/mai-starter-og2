@@ -1,0 +1,18 @@
+{
+    "name": "maithemewp/mai-sparkle",
+    "authors": [
+        {
+            "name": "BizBudding",
+            "email": "team@bizbudding.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/maithemewp/mai-installer"
+        }
+    ],
+    "require": {
+        "maithemewp/mai-installer": "dev-master"
+    }
+}

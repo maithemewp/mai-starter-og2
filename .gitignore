@@ -1,0 +1,6 @@
+*.lock
+LICENSE
+vendor/**/*.md
+vendor/**/*.json
+*test*
+!vendor
