@@ -1,8 +1,8 @@
 <?php
 /**
- * Mai Sparkle theme.
+ * Mai Theme Two.
  *
- * @package   BizBudding\MaiSparkle
+ * @package   BizBudding\MaiThemeTwo
  * @link      https://bizbudding.com/
  * @author    BizBudding
  * @copyright Copyright © 2020 BizBudding
@@ -10,3 +10,7 @@
  */
 
 require_once __DIR__ . '/vendor/autoload.php';
+
+/**********************************
+ * Add your customizations below! *
+ **********************************/
