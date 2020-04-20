@@ -20,7 +20,6 @@ return [
 	// 	'add' => [
 	// 		'sticky-header',
 	// 		'transparent-header',
-	// 		'genesis-footer-widgets' => 2,
 	// 	],
 	// ],
 	// 'image-sizes'         => [
