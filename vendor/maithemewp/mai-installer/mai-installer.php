@@ -7,9 +7,29 @@
  * @author    BizBudding
  * @copyright Copyright © 2020 BizBudding
  * @license   GPL-2.0-or-later
+ * @version   1.1.0
  */
 
-// Needed in theme's functions.php file.
+ /**
+ * Add theme support for Mai Engine.
+ * Default Mai Engine themes are already supported
+ * so let's check first.
+ *
+ * @since 1.1.0
+ *
+ * @return void
+ */
+if ( ! current_theme_supports( 'mai-engine' ) ) {
+	add_theme_support( 'mai-engine' );
+}
+
+/**
+ * Allow WP_Dependency_Installer to be used in a plugin.
+ *
+ * @since 1.0.0
+ *
+ * @return bool
+ */
 add_filter( 'pand_theme_loader', '__return_true' );
 
 add_action( 'after_setup_theme', 'mai_plugin_dependencies' );
