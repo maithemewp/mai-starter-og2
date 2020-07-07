@@ -7,13 +7,13 @@
  * @author    BizBudding
  * @copyright Copyright © 2020 BizBudding
  * @license   GPL-2.0-or-later
- * @version   1.1.0
+ * @version   1.2.0
  */
 
- /**
+/**
  * Add theme support for Mai Engine.
- * Default Mai Engine themes are already supported
- * so let's check first.
+ *
+ * Default Mai Engine themes are already supported so let's check first.
  *
  * @since 1.1.0
  *
@@ -34,15 +34,15 @@ add_filter( 'pand_theme_loader', '__return_true' );
 
 add_action( 'after_setup_theme', 'mai_plugin_dependencies' );
 /**
- * Description of expected behavior.
+ * Pass config to WP Dependency Installer.
  *
- * @since 1.0.0
+ * @since 1.2.0
  *
  * @return void
  */
 function mai_plugin_dependencies() {
 
-	// Set plugin dependencies.
+	// Filter dependencies for use in engine plugin.
 	$config = apply_filters( 'mai_plugin_dependencies', [
 		[
 			'name'     => 'Mai Engine',
@@ -55,22 +55,21 @@ function mai_plugin_dependencies() {
 	] );
 
 	// Install and active dependencies.
-	\WP_Dependency_Installer::instance()->load_hooks();
-	\WP_Dependency_Installer::instance()->register( $config );
+	\WP_Dependency_Installer::instance()->register( $config )->run();
 }
 
 add_action( 'admin_init', 'mai_theme_redirect', 100 );
 /**
  * Redirect after activation.
  *
- * @since 1.0.0
+ * @since 1.2.0
  *
  * @return void
  */
 function mai_theme_redirect() {
 	global $pagenow;
 
-	if ( "themes.php" == $pagenow && is_admin() && isset( $_GET['activated'] ) ) {
-		exit( wp_redirect( admin_url( 'admin.php?page=mai-demo-import' ) ) );
+	if ( 'themes.php' === $pagenow && is_admin() && isset( $_GET['activated'] ) ) {
+		exit( wp_redirect( admin_url( 'admin.php?page=mai-setup-wizard' ) ) );
 	}
 }
