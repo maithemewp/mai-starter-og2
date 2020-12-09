@@ -1,8 +1,8 @@
 <?php
 /**
- * Mai Theme Two.
+ * Mai Starter theme.
  *
- * @package   BizBudding\MaiThemeTwo
+ * @package   BizBudding\MaiStarter
  * @link      https://bizbudding.com/
  * @author    BizBudding
  * @copyright Copyright © 2020 BizBudding
