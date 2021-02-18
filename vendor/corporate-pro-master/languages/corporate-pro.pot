@@ -1,0 +1,571 @@
+# Copyright (C) 2019 Corporate Pro 1.1.1
+# This file is distributed under the same license as the Corporate Pro 1.1.1 package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Corporate Pro 1.1.1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/customize.php:56
+msgid "Logo Size"
+msgstr ""
+
+#: includes/customize.php:57
+msgid "Set the logo size in pixels. Default is "
+msgstr ""
+
+#: includes/customize.php:75
+msgid "Enable sticky header"
+msgstr ""
+
+#: includes/customize.php:98
+msgid "Gradient One Color"
+msgstr ""
+
+#: includes/customize.php:120
+msgid "Gradient Two Color"
+msgstr ""
+
+#: includes/customize.php:143
+msgid "Overlay Color"
+msgstr ""
+
+#: includes/general.php:333
+msgid "Category icon"
+msgstr ""
+
+#: includes/general.php:334
+msgid "Tag icon"
+msgstr ""
+
+#: includes/hero.php:162
+msgid "Latest Posts"
+msgstr ""
+
+#: includes/hero.php:171
+msgid "Not found, error 404"
+msgstr ""
+
+#: includes/hero.php:180
+msgid "Search results for: "
+msgstr ""
+
+#: includes/plugins.php:463
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/plugins.php:464
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: includes/plugins.php:466
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: includes/plugins.php:468
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: includes/plugins.php:469
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/plugins.php:470
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins.php:476
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins.php:482
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins.php:488
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins.php:494
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins.php:500
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins.php:506
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins.php:511
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins.php:516
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins.php:521
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/plugins.php:522, includes/plugins.php:991, includes/plugins.php:2756, includes/plugins.php:3861
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/plugins.php:523, includes/plugins.php:3415
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/plugins.php:524, includes/plugins.php:3193
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: includes/plugins.php:526
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: includes/plugins.php:528
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: includes/plugins.php:530
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/plugins.php:531
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/plugins.php:532
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: includes/plugins.php:533
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/plugins.php:671
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: includes/plugins.php:672
+msgid "Update Required"
+msgstr ""
+
+#: includes/plugins.php:1099
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: includes/plugins.php:1099, includes/plugins.php:1105
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: includes/plugins.php:1105
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: includes/plugins.php:1296, includes/plugins.php:3189
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: includes/plugins.php:2183
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/plugins.php:2489
+msgid "Required"
+msgstr ""
+
+#: includes/plugins.php:2492
+msgid "Recommended"
+msgstr ""
+
+#: includes/plugins.php:2509
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/plugins.php:2512
+msgid "External Source"
+msgstr ""
+
+#: includes/plugins.php:2515
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/plugins.php:2533
+msgid "Not Installed"
+msgstr ""
+
+#: includes/plugins.php:2537
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/plugins.php:2539
+msgid "Active"
+msgstr ""
+
+#: includes/plugins.php:2545
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/plugins.php:2548
+msgid "Requires Update"
+msgstr ""
+
+#: includes/plugins.php:2551
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: includes/plugins.php:2560
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: includes/plugins.php:2607
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: includes/plugins.php:2611
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: includes/plugins.php:2615
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: includes/plugins.php:2619
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins.php:2705
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: includes/plugins.php:2713
+msgid "Installed version:"
+msgstr ""
+
+#: includes/plugins.php:2721
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/plugins.php:2733
+msgid "Available version:"
+msgstr ""
+
+#: includes/plugins.php:2756
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: includes/plugins.php:2770
+msgid "Plugin"
+msgstr ""
+
+#: includes/plugins.php:2771
+msgid "Source"
+msgstr ""
+
+#: includes/plugins.php:2772
+msgid "Type"
+msgstr ""
+
+#: includes/plugins.php:2776
+msgid "Version"
+msgstr ""
+
+#: includes/plugins.php:2777
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/plugins.php:2827
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/plugins.php:2832
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/plugins.php:2838
+msgid "Activate %2$s"
+msgstr ""
+
+#: includes/plugins.php:2910
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/plugins.php:2943
+msgid "Install"
+msgstr ""
+
+#: includes/plugins.php:2949
+msgid "Update"
+msgstr ""
+
+#: includes/plugins.php:2952
+msgid "Activate"
+msgstr ""
+
+#: includes/plugins.php:2983
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/plugins.php:2985
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/plugins.php:3029
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/plugins.php:3031
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/plugins.php:3143
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/plugins.php:3172
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/plugins.php:3414
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/plugins.php:3779
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: includes/plugins.php:3782
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: includes/plugins.php:3784
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/plugins.php:3788
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: includes/plugins.php:3790
+msgid "%s installed and activated successfully."
+msgstr ""
+
+#: includes/plugins.php:3790, includes/plugins.php:3798
+msgid "Show Details"
+msgstr ""
+
+#: includes/plugins.php:3790, includes/plugins.php:3798
+msgid "Hide Details"
+msgstr ""
+
+#: includes/plugins.php:3791
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/plugins.php:3793
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/plugins.php:3796
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: includes/plugins.php:3798
+msgid "%s installed successfully."
+msgstr ""
+
+#: includes/plugins.php:3799
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/plugins.php:3801
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/setup.php:66
+msgid "Header Menu"
+msgstr ""
+
+#: includes/setup.php:67
+msgid "After Header Menu"
+msgstr ""
+
+#: includes/setup.php:147
+msgid "Hero Image"
+msgstr ""
+
+#: includes/widgets.php:22
+msgid "Before Header"
+msgstr ""
+
+#: includes/widgets.php:23
+msgid "Before Header widget area."
+msgstr ""
+
+#: includes/widgets.php:29
+msgid "Before Footer"
+msgstr ""
+
+#: includes/widgets.php:30
+msgid "Before Footer widget area."
+msgstr ""
+
+#: includes/widgets.php:36
+msgid "Footer Credits"
+msgstr ""
+
+#: includes/widgets.php:37
+msgid "Footer Credits widget area."
+msgstr ""
+
+#: includes/widgets.php:43
+msgid "Front Page 1"
+msgstr ""
+
+#: includes/widgets.php:44
+msgid "This widget area can be used to display a large hero image, video or slider on the home page."
+msgstr ""
+
+#: includes/widgets.php:50
+msgid "Front Page 2"
+msgstr ""
+
+#: includes/widgets.php:51
+msgid "This widget area can be used to display brand logos on the home page."
+msgstr ""
+
+#: includes/widgets.php:55
+msgid "Front Page 3"
+msgstr ""
+
+#: includes/widgets.php:56
+msgid "This widget area can be used to display a video section and grid of icons on the home page."
+msgstr ""
+
+#: includes/widgets.php:60
+msgid "Front Page 4"
+msgstr ""
+
+#: includes/widgets.php:61
+msgid "This widget area can be used to display a large image on the home page."
+msgstr ""
+
+#: includes/widgets.php:65
+msgid "Front Page 5"
+msgstr ""
+
+#: includes/widgets.php:66
+msgid "This widget area can be used to display an image gallery on the home page."
+msgstr ""
+
+#: includes/widgets.php:70
+msgid "Front Page 6"
+msgstr ""
+
+#: includes/widgets.php:71
+msgid "This widget area can be used to display a call to action banner on the home page."
+msgstr ""
+
+#: includes/widgets.php:75
+msgid "Front Page 7"
+msgstr ""
+
+#: includes/widgets.php:76
+msgid "This widget area can be used to display a pricing table and testimonials on the home page."
+msgstr ""
+
+#: includes/widgets.php:80
+msgid "Front Page 8"
+msgstr ""
+
+#: includes/widgets.php:81
+msgid "This widget area can be used to display recent blog posts on the home page."
+msgstr ""
+
+#: includes/widgets.php:85
+msgid "Front Page 9"
+msgstr ""
+
+#: includes/widgets.php:86
+msgid "This widget area can be used to display a newsletter sign up form on the home page."
+msgstr ""
+
+#: templates/page-boxed.php:7
+msgid "Boxed Template"
+msgstr ""
+
+#: templates/page-builder.php:7
+msgid "Page Builder"
+msgstr ""
+
+#: templates/page-contact.php:7
+msgid "Contact Page"
+msgstr ""
+
+#: templates/page-landing.php:7
+msgid "Landing Page"
+msgstr ""
